@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'smartmi';
+  src: url('../font/smartmi.eot?42375223');
+  src: url('../font/smartmi.eot?42375223#iefix') format('embedded-opentype'),
+       url('../font/smartmi.woff2?42375223') format('woff2'),
+       url('../font/smartmi.woff?42375223') format('woff'),
+       url('../font/smartmi.ttf?42375223') format('truetype'),
+       url('../font/smartmi.svg?42375223#smartmi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'smartmi';
+    src: url('../font/smartmi.svg?42375223#smartmi') format('svg');
+  }
+}
+*/
+ 
+ [class$="-smartmi"]:before, [class*="-smartmi "]:before {
+  font-family: "smartmi";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.calender-smartmi:before { content: '\e800'; } /* '' */
+.customers-smartmi:before { content: '\e801'; } /* '' */
+.dashboard-smartmi:before { content: '\e802'; } /* '' */
+.edit-smartmi:before { content: '\e803'; } /* '' */
+.general-smartmi:before { content: '\e804'; } /* '' */
+.kpi-smartmi:before { content: '\e805'; } /* '' */
+.leads-smartmi:before { content: '\e806'; } /* '' */
+.locatemi-smartmi:before { content: '\e807'; } /* '' */
+.notifications-smartmi:before { content: '\e808'; } /* '' */
+.orders-smartmi:before { content: '\e809'; } /* '' */
+.producs-smartmi:before { content: '\e80a'; } /* '' */
+.projects-smartmi:before { content: '\e80b'; } /* '' */
+.quotes-smartmi:before { content: '\e80c'; } /* '' */
+.reports-smartmi:before { content: '\e80d'; } /* '' */
+.settings-smartmi:before { content: '\e80e'; } /* '' */
+.users-smartmi:before { content: '\e80f'; } /* '' */
